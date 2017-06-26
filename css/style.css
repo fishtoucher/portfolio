@@ -16,11 +16,11 @@
 	box-sizing:border-box;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
-	font-size: 30pt;
+	font-size: 15pt;
 }
 
 h1{
-	font-size: 50pt;
+	font-size: 30pt;
 	font-weight: 400;
 }
 [class*='col-']{
@@ -43,7 +43,7 @@ h1{
 
 .box1{
     
-    width:400px;
+    width:200px;
     position: absolute;
     top:35%;
    	right:5%;
@@ -60,7 +60,7 @@ li{
 	text-decoration: none;
 	color:grey;
 	position: relative;
-	font-size: 25pt;
+	font-size: 15pt;
 	
 }
 .box1 ul li a:hover{
@@ -106,35 +106,59 @@ li{
 
 .item{
 	margin-bottom: 100px;
-	height: 460px;
-	width: 800px;
+	height: 300px;
+	width: 550px;
 	background-color:tomato;
 	border-radius: 10px;
 	flex-basis: auto;
 }
 
 .button{
-  position:relative;
-  left:470px;
-  top:310px;
-  display: inline-block;
-  padding: 25px 35px;
+  
+  margin-bottom: 50px;
+  padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  font-size: 12pt;
   outline: none;
-  color: tomato;
+  color: #4f4f4f;
   background-color:white ;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px grey;
+  border-radius: 10px;
+  box-shadow: 0 7px grey;
 
 }
 
 .button:hover {
+
   background-color: lightgrey;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   transition:0.2s; }
 
+
+
+.shelf{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	width:50%;
+	float:right;
+	
+	text-align: center;
+}
+.shelf h1{
+	margin-bottom: 70px;
+	font-size: 20pt;
+	color: white;	
+}
+
+.frame{
+	width: 150px;
+	height: 150px;
+
+}
