@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	font-family: "Lato", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 	font-size: 15pt;
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -254,6 +254,7 @@ nav{
 }
 
 .wallpaper h2{
+	font-weight: 400;
 	font-size: 18pt;
 	padding-top: 50px;
 }
@@ -266,7 +267,7 @@ nav{
 
 .banner{
 	width: 100%;
-	height: 270px;
+	height: 330px;
 	display: flex;
 	background-color: #eee7e6;
 	flex-direction: row;
@@ -274,15 +275,17 @@ nav{
 }
 
 .col-3 ul li{
+	padding-top: 35px;
 	display: inline-block;
-	width: 48%;
-	padding-right: 15px;
+	width: 45%;
+	padding-right: 0px;
 	
 	
 }
 
 .bannerleft {
-	margin-right: 5px;
+	padding-right: 50px;
+	margin-right: 10px;
 	border-right: 1px solid black;
 
 }
@@ -291,6 +294,9 @@ nav{
 	margin-top: 70px;
 }
 
+.col-3 h2{
+	font-weight: 400;
+}
 nav ul li a{
 	text-decoration: none;
 	color:grey;
@@ -351,4 +357,16 @@ nav a:hover:before {
 	padding-top: 50px;
 	margin-top: 50px;
 	margin-bottom: 0px;
+}
+
+.shelf2 a{
+	margin-right: 20px;
+	text-decoration: none;
+	color: grey;
+	font-size: 14pt;
+}
+
+.subtitle{
+	font-weight: 400;
+	text-decoration: bold;
 }
